@@ -1,0 +1,40 @@
+# Packet Tracer temporary files
+*.pkt.bak
+*.pka.bak
+~*.pkt
+~*.pka
+
+# Packet Tracer logs
+*.pt.log
+
+# GNS3 project temp files
+*.gns3_temporary/
+*.gns3_backup/
+
+# OS junk
+# Windows
+Thumbs.db
+Desktop.ini
+*.lnk
+
+# macOS
+.DS_Store
+._*
+
+# Linux
+*~
+.directory
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python (for future Netmiko automation labs)
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
